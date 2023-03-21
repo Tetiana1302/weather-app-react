@@ -1,8 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-  return <div className="App">Weather App</div>;
+export default function App() {
+  return (
+    <div className="App">
+      <h1>Weather App</h1>
+      <footer>
+        This project is created by Tetiana Bysykalo and is
+        <a
+          href="https://github.com/Tetiana1302/weather-app-react"
+          target="_blank"
+        >
+          {" "}
+          open-sourced on GidHub
+        </a>
+      </footer>
+    </div>
+  );
 }
-
-export default App;
