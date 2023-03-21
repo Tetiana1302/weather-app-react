@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://github.com/Tetiana1302/weather-app-react"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           open-sourced on GidHub
