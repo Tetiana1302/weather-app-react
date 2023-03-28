@@ -20,7 +20,7 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-sm-6">
           <div className="temperature-container d-flex justify-content-center align-items-stretch">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={52} />
             <span className="temperature">
               {Math.round(props.data.temperature)}
             </span>
